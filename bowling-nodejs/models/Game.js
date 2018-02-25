@@ -1,6 +1,6 @@
 module.exports = class Game {
     
-    constructor(name){
+    constructor(){
       this.frames = [];
       
     }
