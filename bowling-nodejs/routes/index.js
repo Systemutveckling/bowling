@@ -7,10 +7,6 @@ var bowlingGame = new Game();
 
 
 
-for(frameIndex = 0; frameIndex < bowlingGame.frames.length;frameIndex++){
-  console.log( bowlingGame.frames[frameIndex].score);
-}
-
 router.post('/', function(req, res, next) {
   const firstRoll = req.body.first; 
   const secondRoll = req.body.second;
