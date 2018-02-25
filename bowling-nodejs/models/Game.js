@@ -54,7 +54,6 @@ module.exports = class Game {
         if(this.currentFrame().first + this.currentFrame().second == 10 && this.currentFrame().second > 0){
             this.addOpen();
             this.currentFrame().score += this.currentFrame().third
-           console.log('this current frame ' + this.currentFrame().score)
         }
         if(this.currentFrame().first + this.currentFrame().second < 10 ){
             this.addOpen();        
