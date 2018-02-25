@@ -1,0 +1,8 @@
+<button (click)="roll()">Roll</button>
+
+<div *ngFor="let frame of bowlingGame.frames" id="frame">
+      <p>{{ frame.first }} {{ frame.second }} {{ frame.third }}</p>
+      <p>score =  {{ frame.score }}</p>
+  </div>
+
+
